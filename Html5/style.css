@@ -1,4 +1,0 @@
-ul li:nth-child(2) { // pode colocar tbm os pares: even ou impares: odd; ou 5n para ir de 5 em 5. ou (5n + 3) dps do 5 elemento ele irá ter a cor de três em três.
-    color: blueviolet;
-}
-
