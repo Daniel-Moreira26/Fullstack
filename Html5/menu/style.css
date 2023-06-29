@@ -11,10 +11,27 @@
         width: 100px;
     }
 
-    menu {
+    header {
         background-color: rgba(0, 0, 0, 0.568);
         border: 0px;
         margin: 0%;
 
+    }
+    
+    
+
+    p {
+        display: block;
+        margin: auto;
+        width: 100px;
+        margin-bottom: 20px;
+    }
+
+    nav ul li {
+        display: inline;
+        text-align: center;
+        list-style-type: none;
+        margin-right: 20px;
+        margin-left: 40px;
     }
 }
