@@ -1,20 +1,23 @@
-section{
+.container {
     display: flex;
-    flex-direction: row;
-    justify-content: start;
-    align-items: start;
-    height: 500px;
+    justify-content: space-between;
+    
 }
 
-article{
+.box1 {
+    background-color: black;
     width: 200px;
     height: 200px;
-    background-color: black;
-    margin: 10px;
-    
+}
+
+p {
+    font-size: 2em;
+    color: brown;
     
 }
 
-article:nth-child(2) {
-    background-color: blueviolet;
+.box2 {
+    background-color: red;
+    width: 200px;
+    height: 200px;
 }
