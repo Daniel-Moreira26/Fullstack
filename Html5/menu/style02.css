@@ -1,0 +1,40 @@
+
+
+body {
+    font-size: 24px;
+}
+
+.two-collums {
+    display: flex;
+    
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(24, 150, 24);
+    height: 500px;
+    margin: 3px;
+    padding: 10px;
+}
+
+.gallery {
+    display: flex;
+    background-color: blue;
+    flex-flow: row wrap;
+
+}
+
+.coluna {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    flex: 1 0 10%;
+    background-color: red;
+    margin: 4px;
+    justify-content: space-between;
+}
+
+.coluna:nth-child(2) {
+    
+}
