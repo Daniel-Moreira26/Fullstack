@@ -5,11 +5,20 @@
 
 .grid {
     display: grid;
-    grid-template-columns: 50% 50%; /*A primeira serve para primeira coluna e segunda respectivamente.*/
-    gap: 30px; /* Dá espaçamento entre as grids*/
+    grid-template-columns: 3, 1fr;
+    
+}
+
+.grid div:nth-child(1) {
+    background-color: darkblue;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
 }
 
 .grid div {
     background-color: aqua;
     min-height: 100px;
 }
+
+
