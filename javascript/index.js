@@ -1,1 +1,1 @@
-console.log(`Olá meu nome é "Daniel". Estou aprendendo JavaScript às ${10} da manhã`);
+console.log('Olá mundo')
