@@ -12,11 +12,12 @@ h1 {
 }
 
 div {
-  background-color: rgb(19, 19, 19);
+  background-color: #111;
   color: whitesmoke;
-  width: 700px;
+  max-width: 50%;
   display: block;
   margin: auto;
+  
   border-radius: 5px;
 }
 
@@ -28,6 +29,7 @@ div {
   margin-top: 20px;
   line-height: 40px;
   padding: 30px;
+  
 }
 
 p {
@@ -38,11 +40,17 @@ button {
   padding: 7px;
   background-color: rgb(245, 186, 36);
  border: 1px solid rgb(238, 180, 34);
- color: rgb(71, 19, 19);
+ color: #322200;
  font-weight: bold;
 }
 
 button:hover{
   background-color: rgb(216, 164, 32);
   cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  div {
+    max-width: 70%;
+  }
 }
