@@ -1,0 +1,67 @@
+* {
+
+  font-family: Arial;
+}
+
+html {
+  
+  background: #f0f0f0;
+}
+
+h1 {
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 80px;
+}
+
+menu {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+menu a {
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 15px 30px 15px 30px;
+  border-radius: 4px;
+  margin-top: 40px;
+}
+
+.nimbus {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 80px;
+  grid-template-rows: 340px;
+}
+
+.nimbus img {
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.13);
+}
+
+.descricao-nimbus {
+  background-color: white;
+  margin-left: 80px;
+  border-radius: 4px;
+  text-align: right;
+  padding: 40px;
+}
+
+.descricao-nimbus h2, p {
+  line-height: 1.5;
+}
+
+.descricao-nimbus a {
+  background-color: #ee2211;
+  padding: 12px 24px 12px 24px;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  top: 20px;
+}
+
+
