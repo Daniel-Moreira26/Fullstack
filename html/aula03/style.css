@@ -31,10 +31,11 @@ menu a {
   margin-top: 40px;
 }
 
-.nimbus {
+section {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 80px;
+  margin-bottom: 180px;
   grid-template-rows: 340px;
 }
 
@@ -63,5 +64,30 @@ menu a {
   position: relative;
   top: 20px;
 }
+
+.secao02 {
+  height: 400px;
+  background-color: #1F1F1F;
+
+}
+
+.secao02 h1 {
+  color: #0c0c0c;
+  font-size: 60px;
+  text-align: right;
+  padding-right: 50px;
+}
+
+.descricao-vantagens {
+  display: grid;
+  
+}
+
+.descricao {
+  line-height: 1px;
+}
+
+
+
 
 
