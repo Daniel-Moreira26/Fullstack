@@ -78,8 +78,9 @@ section {
   padding-right: 50px;
 }
 
-.descricao-vantagens {
-  display: grid;
+.descricao-vantagens{
+  display: flex;
+  
   
 }
 
