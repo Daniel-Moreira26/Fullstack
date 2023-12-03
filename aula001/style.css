@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1 a {
+  color: black;
+}
+
+.estados{
+  color: green;
+  text-decoration: none;
+}
+
+.secoes-hoje {
+  color: rgb(116, 9, 9);
+}
+
+.secoes-amanha {
+  color: blue;
+}
