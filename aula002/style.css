@@ -1,0 +1,44 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+h2 {
+  margin: 0px;
+}
+
+.carro, .bicicleta {
+  background-color: #111;
+  color: whitesmoke;
+  margin: auto;
+  max-width: 70%;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.conteudo {
+  padding: 30px;
+}
+
+span {
+  color: goldenrod;
+}
+
+.comprar {
+  background-color: goldenrod;
+  color: rgb(75, 20, 20);
+  font-weight: 700;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0px solid black;
+  cursor: pointer;
+}
+
+.comprar:hover {
+  background-color: rgb(184, 140, 28);
+}
