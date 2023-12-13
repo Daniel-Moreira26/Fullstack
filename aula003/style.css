@@ -1,0 +1,21 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  background-color: #f7f7f7;
+}
+
+h1 {
+  text-align: center;
+  margin: 60px;
+}
+
+menu {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+menu > a {
+  background-color: #ffffff;
+  padding: 10px;
+}
