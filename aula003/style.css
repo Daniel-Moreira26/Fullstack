@@ -29,6 +29,7 @@ menu > a {
 
 main {
   display: grid;
+  position: relative;
   grid-template-columns: 1fr 1fr;
   max-width: 1000px;
   margin: auto;
@@ -36,6 +37,14 @@ main {
   margin-bottom: 120px;
 }
 
+.detalhe {
+  position: absolute;
+  top: 20px;
+  left: 480px;
+  width: 40px;
+  height: 5px;
+  background-color: #ee2211;
+}
 
 .descricao,  .vantagens {
   background-color: white;
@@ -68,13 +77,35 @@ img {
   margin: -2px;
 }
 
+.bikcraft {
+  display: grid;
+  align-items: center;
+  padding: 30px;
+  height: 200px;
+  color:  #c6c6c6;
+}
+
 .bikcraft h1 {
   text-align: right;
   font-size: 64px;
-  align-items: center;
-  height: 200px;
+  
 }
 
+.vantagens img {
+  width: 30px;
+}
+
+.vantagens {
+  display: grid;
+  padding: 30px;
+}
+
+footer {
+  background-color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 1px;
+  text-align: center;
+}
 
 
 
